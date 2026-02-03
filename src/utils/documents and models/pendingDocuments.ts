@@ -45,7 +45,7 @@ Para fins Para fins de planejamento atuarial e atualização cadastral do Censo,
   "cnh/r/a": "CNH para ocupantes do cargo de Motorista",
   "dsvu/n": "Declaração de união estável + Certidão de Casamento averbada",
   "dp/21":
-    "Em caso de dependente filho(a) com mais de 18 anos, é necessário que se envie laudo/atestado médico caso declarado inválido. Caso não, remover como dependente previdenciário",
+    "Em caso de dependente filho(a) com mais de 21 anos, é necessário enviar laudo/atestado médico caso declarado inválido. Caso não, remover como dependente previdenciário",
   "dep/id/n": "Enviar documento de identificação dos dependentes DEPS",
   "cnd/n": "Enviar certidão de nascimento do dependente DEP",
 }
