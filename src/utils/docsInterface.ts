@@ -132,12 +132,6 @@ export interface PensionerDocs {
     present: boolean
     optionList?: NestedOption[]
   }
-  beneficioPrevidenciario: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
 }
 
 export interface InactivesInt {

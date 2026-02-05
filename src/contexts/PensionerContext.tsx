@@ -4,7 +4,6 @@ import { PensionerDocuments } from "../utils/endTextObject"
 
 export const pensionerContextDocs: PensionerDocuments = {
   id: "id/n",
-  beneficioPrevidenciario: false,
   residencia: "cr/n",
   estadoCivil: "cns/nr",
   pis: false,

@@ -59,7 +59,6 @@ export interface InactivesDocuments {
 
 export interface PensionerDocuments {
   id: IDInvalid | IDValid
-  beneficioPrevidenciario: boolean
   residencia: ResidenceInvalid | ResidenceValid
   certidaoDeObitoExServidor: CertidaoDeObitoExServidor
   atoNomeacaoExServidor: atoNomeacaoExServidor

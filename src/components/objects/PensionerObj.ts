@@ -214,11 +214,6 @@ const pensionerObj: PensionerDocs = {
     required: true,
     present: false,
   },
-  beneficioPrevidenciario: {
-    name: "Declaração de Benefício Previdenciário",
-    required: true,
-    present: false,
-  },
 }
 
 export default pensionerObj

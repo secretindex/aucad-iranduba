@@ -50,13 +50,11 @@ export type PensionerCheck = {
 
 export type StandardPensioner = {
   pis: string
-  beneficioPrevidenciario: string
   atoConcessaoPensao: string
 }
 
 const standardPensioner: StandardPensioner = {
   pis: "NIT/PIS/PASEP ou documento oficial que contenha a informação",
-  beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meu.inss.gov.br",
   atoConcessaoPensao: "Ato de Concessão do Benefício de Pensão"
 }
 
