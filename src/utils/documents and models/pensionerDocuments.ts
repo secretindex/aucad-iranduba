@@ -45,7 +45,6 @@ const invalidPensioner: InvalidPensioner = {
 
 export type PensionerCheck = {
   pis: boolean
-  beneficioPrevidenciario: boolean
 }
 
 export type StandardPensioner = {
