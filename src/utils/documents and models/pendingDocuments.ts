@@ -34,7 +34,7 @@ const invalidStandard: InvalidDocuments = {
 Casada, Divorciada ou Viúva - Certidão de Casamento (com averbação nos dois últimos casos);
 União Estável - Declaração de União Estável ou Declaração de Convivência Marital (com firma reconhecida em cartório);
 Solteira - Certidão de nascimento`,
-  "ctc/np": `Extrato do CNIS de período anterior ao ingresso no Município, ou pelas páginas da Carteira de Trabalho que contenham os registros de contrato de trabalho (data de início e data fim), ou pelas portarias de nomeação e exoneração para servidores públicos cuja Carteira de Trabalho não registre os vínculos, fica ressalvado que, para a averbação formal e utilização desse tempo na concessão de benefício no VALIPREV, será indispensável a apresentação da CTC original, nos termos da legislação federal aplicável à contagem recíproca`,
+  "ctc/np": `Extrato do CNIS de período anterior ao ingresso no Município, ou pelas páginas da Carteira de Trabalho que contenham os registros de contrato de trabalho (data de início e data fim), ou pelas portarias de nomeação e exoneração para servidores públicos cuja Carteira de Trabalho não registre os vínculos, fica ressalvado que, para a averbação formal e utilização desse tempo na concessão de benefício no INPREV, será indispensável a apresentação da CTC original, nos termos da legislação federal aplicável à contagem recíproca`,
   "cerc/n": "Certidão de Casamento",
   "inv/nc": "Enviar qualquer documento que comprove invalidez do dependente DEP",
   "cav/n": "Certidão de casamento averbada",
@@ -65,7 +65,7 @@ export type ActivesStandardType = {
 const activesStandard: ActivesStandardType = {
   cpf: "Qualquer documento contendo número do CPF",
   pis: "NIT/PIS/PASEP ou documento oficial que contenha a informação",
-  cnis: "CNIS de Período Anterior ao seu ingresso no Município, caso pretenda solicitar averbação desse tempo para concessão de benefício no VALIPREV",
+  cnis: "CNIS de Período Anterior ao seu ingresso no Município, caso pretenda solicitar averbação desse tempo para concessão de benefício no INPREV",
   atoDeNomeacao: "Ato de Nomeacao no cargo efetivo",
   beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meu.inss.gov.br",
   uniao: "Certidão de União Estável",
